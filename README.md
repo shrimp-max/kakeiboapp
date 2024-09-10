@@ -23,6 +23,8 @@ https://ebitaku.sakura.ne.jp/kakeiboapp/index.php
 ## ⑥難しかった点・次回トライしたいこと(又は機能)
 
 - DBは作成済みなので、カテゴリや財布の選択肢を自分で追加できるようにしたい
+- 絞り込み機能を実装するにあたり、select文を入れてみたが、以下のエラーが出てしまい、取得したいカラムがundefinedとなってしまった。
+- : Undefined array key "syushi" in C:\xampp\htdocs\kakeibo\kakeiboapp\insert.php on line 6
 - 各レコードに編集ボタンを設置して、投入後の編集を可能にしたい（SQLのupdate,delete?)
 - 別ページに収支のグラフを挿入したい（chartjsのリベンジ）
 
